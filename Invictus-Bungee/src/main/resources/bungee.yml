@@ -1,0 +1,5 @@
+main: cc.invictusgames.invictus.InvictusBungeePlugin
+name: Invictus
+author: InvictusGames Development Team
+depend: [ iLib ]
+version: ${git.build.version}-${git.commit.id.abbrev}

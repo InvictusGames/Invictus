@@ -1,0 +1,29 @@
+network-name: 'Brave'
+network-store: 'store.brave.rip'
+discord-link: 'discord.brave.rip'
+maintenance-kick: '&cThe Network is currently in maintenance.\n&cLearn more at:\n\n&cDiscord: &ediscord.brave.rip\n\n&cYou need to be at least {0} &cto join.'
+staff:
+  join: '&9[Staff] {0} &bconnected to &7{1}&b.'
+  quit: '&9[Staff] {0} &bdisconnected from &7{1}&b.'
+  switch: '&9[Staff] {0} &bjoined &7{1} &bfrom &7{2}&b.'
+  chat: '&9[Staff] &7[{0}] {1}&d: {2}'
+  report: '&9[Report] &7[{0}] {1} &7({2}) &breported by {3}&d: {4}'
+  request: '&9[Request] &7[{0}] {1} &brequested&d: {2}'
+  clearchat: '&9[Staff] &7[{0}] {1} &bhas cleared the chat.'
+  slowchat:
+    slowed: '&9[Staff] &7[{0}] {1} &bhas slowed the chat for &7{2}&b.'
+    unslowed: '&9[Staff] &7[{0}] {1} &bhas unslowed the chat.'
+  mutechat:
+    muted: '&9[Staff] &7[{0}] {1} &bhas muted the chat.'
+    unmuted: '&9[Staff] &7[{0}] {1} &bhas unmuted the chat.'
+  freeze:
+    frozen: '&9[Staff] &7[{0}] {1} &bfroze {2}&b.'
+    unfrozen: '&9[Staff] &7[{0}] {1} &bunfroze {2}&b.'
+    quit: '&9[Staff] &7[{0}] {1} &blogged out whilst frozen.'
+base:
+  freeze:
+    target-alert:
+      - '&4&m------------------------------'
+      - '         &cYou have been frozen.'
+      - ' &cJoin &4ts.arson.gg &cwithin &43 minutes&c.'
+      - '&4&m------------------------------'

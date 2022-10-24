@@ -1,0 +1,7 @@
+main: cc.invictusgames.invictus.InvictusBukkitPlugin
+name: Invictus
+author: InvictusGames Development Team
+depend: [ iLib ]
+softdepend: [ Votifier ]
+version: ${git.build.version}-${git.commit.id.abbrev}
+description: Main core of the server
